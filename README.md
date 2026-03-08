@@ -71,6 +71,14 @@ The platform allows developers to **authenticate users inside their applications
 
 ---
 
+# 🏆 GitHub Trophies
+
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=OfficialFranked&theme=tokyonight&no-frame=true&row=1&column=6" />
+</p>
+
+---
+
 # 📊 GitHub Stats
 
 <p align="center">
@@ -89,6 +97,14 @@ The platform allows developers to **authenticate users inside their applications
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=OfficialFranked&theme=tokyonight&hide_border=true" />
 
+</p>
+
+---
+
+# 📈 Metrics
+
+<p align="center">
+<img src="./github-metrics.svg" />
 </p>
 
 ---
