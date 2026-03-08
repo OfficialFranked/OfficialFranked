@@ -68,3 +68,68 @@ The platform allows developers to **authenticate users inside their applications
 ---
 
 # 🏗 Architecture
+
+---
+
+# 📊 GitHub Stats
+
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=OfficialFranked&show_icons=true&theme=tokyonight&hide_border=true" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OfficialFranked&layout=compact&theme=tokyonight&hide_border=true" />
+
+</p>
+
+---
+
+# 🔥 Contribution Streak
+
+<p align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=OfficialFranked&theme=tokyonight&hide_border=true" />
+
+</p>
+
+---
+
+# ⭐ Featured Repository
+
+<p align="center">
+
+<a href="https://github.com/OfficialFranked/license-platform">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=OfficialFranked&repo=license-platform&theme=tokyonight&hide_border=true" />
+</a>
+
+</p>
+
+---
+
+# 🐍 Contribution Graph
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/OfficialFranked/OfficialFranked/output/github-contribution-grid-snake.svg">
+</p>
+
+---
+
+# 👀 Profile Views
+
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=OfficialFranked&style=for-the-badge&color=blue">
+
+</p>
+
+---
+
+# 📫 Contact
+
+GitHub  
+https://github.com/OfficialFranked
+
+---
+
+<p align="center">
+Building secure developer infrastructure.
+</p>
