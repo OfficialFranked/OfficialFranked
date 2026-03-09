@@ -1,151 +1,119 @@
-<h1 align="center">OfficialFranked</h1>
+<h1 align="center">Franked</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=30&duration=3000&pause=1000&center=true&vCenter=true&width=750&lines=Developer;Software+Security;SaaS+Infrastructure;Building+Developer+Platforms;Open+Source+Projects" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=30&duration=3000&pause=1000&center=true&vCenter=true&width=750&lines=Secure+Software+Licensing+Platform;Hardware+Locked+License+Keys;Cloud+Protection+%26+Launcher+Delivery;Developer+SDKs+%7C+Analytics+%7C+Webhooks" />
 </p>
 
 <p align="center">
-Building secure developer infrastructure and licensing systems.
+The modern platform for managing software licenses.
+</p>
+
+<p align="center">
+Generate keys, track activations, bind to hardware, and protect your revenue — all from a single dashboard.
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/license-Proprietary-blue.svg">
+<img src="https://img.shields.io/badge/platform-SaaS-black">
+<img src="https://img.shields.io/badge/security-HMAC%20%2B%20Encryption-green">
 </p>
 
 ---
 
-# 🚀 About Me
+# 🚀 Features
 
-I build developer infrastructure including:
-
-- software licensing platforms  
-- developer SaaS dashboards  
-- authentication systems  
-- API infrastructure  
-- security tools  
-
-Currently developing a **modern licensing platform** designed to help developers protect and manage their applications.
+| Feature | Description |
+|--------|-------------|
+| **License Keys** | LIFETIME, TIME_BASED, and SUBSCRIPTION licenses with flexible expiry and activation limits |
+| **HWID Locking** | Bind licenses to hardware. Prevent key sharing while allowing device changes |
+| **Cloud Protect** | VMProtect-style exe protection: XOR-encrypted payloads, anti-debug, anti-tamper |
+| **Secure API** | HMAC-signed requests, encrypted responses, anti-replay protection |
+| **Webhooks** | Real-time events: `license.activated`, `license.revoked`, `anomaly_detected` |
+| **Analytics** | Activation trends, geo distribution, usage monitoring |
+| **SDKs** | Python, C++, C#, Rust — integrate in minutes |
+| **Launcher** | Versioned app delivery with signed manifests |
 
 ---
 
-# 🧩 Tech Stack
+# 🧩 Stack
 
-### Languages
+### Backend
+- **Fastify**
+- **Prisma**
+- **PostgreSQL**
+- **Redis**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/CSharp-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-### Frameworks
-
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=nextdotjs)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs)
+### Frontend
+- **Next.js 15**
+- **React 19**
+- **TailwindCSS**
 
 ### Infrastructure
+- **Railway** → API deployment  
+- **Netlify** → Web + Admin dashboard  
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify)
-
----
-
-# 🔐 Featured Project
-
-## Franked License Platform
-
-A developer SaaS platform for **secure software licensing and authentication**.
-
-Core features:
-
-- license key generation  
-- HWID locking  
-- authentication API  
-- developer dashboard  
-- analytics and monitoring  
-- security event tracking  
-
-The platform allows developers to **authenticate users inside their applications and manage licenses from a centralized dashboard.**
+### Security
+- JWT authentication  
+- HMAC request signing  
+- encrypted payloads  
+- hardware fingerprinting  
 
 ---
 
-# 🏗 Architecture
+# ⚡ Quick Start
 
----
+```bash
+git clone https://github.com/OfficialFranked/license-platform.git
+cd license-platform
+npm install
+cp .env.example .env
+npm run db:push
+npm run dev
 
-# 🏆 GitHub Trophies
+See:
 
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=OfficialFranked&theme=tokyonight&no-frame=true&row=1&column=6" />
-</p>
+RAILWAY_SETUP.md
 
----
+for production deployment.
 
-# 📊 GitHub Stats
+📂 Project Structure
+license-platform/
 
-<p align="center">
+apps/
+  api/            Fastify API (auth, billing, licenses, protect, webhooks)
+  web/            Customer dashboard (franked.xyz)
+  admin/          Admin panel (admin.franked.xyz)
 
-<img src="https://github-readme-stats.vercel.app/api?username=OfficialFranked&show_icons=true&theme=tokyonight&hide_border=true" />
+packages/
+  database/       Prisma schema
+  auth/           JWT helpers and middleware
+  crypto/         HMAC, encryption, license utilities
+  launcher-core/  Manifest signing, fingerprint hashing
+  protect-launcher/ C++ stub for exe protection
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OfficialFranked&layout=compact&theme=tokyonight&hide_border=true" />
+clients/
+  demo apps
 
-</p>
+scripts/
+  PayPal plan creation, etc.
+🌐 Platform Links
+Service	Link
+Dashboard	https://franked.xyz
 
----
+Admin	https://admin.franked.xyz
 
-# 🔥 Contribution Streak
+Docs	https://franked.xyz/docs
 
-<p align="center">
+Pricing	https://franked.xyz/pricing
+🏆 GitHub Stats
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=OfficialFranked&show_icons=true&theme=tokyonight&hide_border=true" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OfficialFranked&layout=compact&theme=tokyonight&hide_border=true" /> </p>
+🔥 Contribution Streak
+<p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=OfficialFranked&theme=tokyonight&hide_border=true" /> </p>
+👀 Repository Views
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=OfficialFranked&style=for-the-badge&color=blue"> </p>
+📜 License
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=OfficialFranked&theme=tokyonight&hide_border=true" />
+Proprietary.
+All rights reserved.
 
-</p>
-
----
-
-# 📈 Metrics
-
-<p align="center">
-<img src="./github-metrics.svg" />
-</p>
-
----
-
-# ⭐ Featured Repository
-
-<p align="center">
-
-<a href="https://github.com/OfficialFranked/license-platform">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=OfficialFranked&repo=license-platform&theme=tokyonight&hide_border=true" />
-</a>
-
-</p>
-
----
-
-# 🐍 Contribution Graph
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/OfficialFranked/OfficialFranked/output/github-contribution-grid-snake.svg">
-</p>
-
----
-
-# 👀 Profile Views
-
-<p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=OfficialFranked&style=for-the-badge&color=blue">
-
-</p>
-
----
-
-# 📫 Contact
-
-GitHub  
-https://github.com/OfficialFranked
-
----
-
-<p align="center">
-Building secure developer infrastructure.
-</p>
+<p align="center"> Built by the Franked platform team. </p> ```
